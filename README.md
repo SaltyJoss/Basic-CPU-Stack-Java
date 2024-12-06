@@ -19,11 +19,22 @@
 #### example:
 
 ```Java
-case IADD:
-	b = stack[sp--];
-	a = stack[sp--];
-	stack[++sp] = a + b;
-	break;
+switch (opcode) {
+	case IADD:
+		b = stack[sp--];
+		a = stack[sp--];
+		stack[++sp] = a + b;
+		break;
+	case ISUB:
+		b = stack[sp--];
+		a = stack[sp--];
+		stack[++sp] = a - b;
+		break;
+	case IMUL:
+		b = stack[sp--];
+		a = stack[sp--];
+		stack[++sp] = a * b;
+		break;
 ```
 
 ### The code:
