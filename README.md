@@ -78,6 +78,10 @@ REFERENCES:
 [How to Build a Virtual Machine](https://www.youtube.com/watch?v=OjaAToVkoTw&pp=ygUZYmFzaWMgSlZNIHZpcnR1YWwgbWFjaGluZQ%3D%3D)
 ### Other:
 [GeeksforGeeks](https://www.geeksforgeeks.org/central-processing-unit-cpu/)
+
 [Computer Science Wiki](https://computersciencewiki.org/index.php/Architecture_of_the_central_processing_unit_(CPU))
+
 [Medium](https://medium.com/swlh/an-introduction-to-jvm-bytecode-5ef3165fae70)
+
 [Yale University](https://pclt.sites.yale.edu/cpu-instructions)
+
