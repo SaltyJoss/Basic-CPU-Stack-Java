@@ -2,15 +2,12 @@
 
 ## INFORMATION
 
-> ### Quick Note
+> ### Quick Note(s)
 >
 > I am a second year Computer Science student
-> 
-> This repo used multiple sources to learn about CPU function at low level
->
+> This repo used multiple sources to learn about CPU function at low level, and is a side project, therefore I update code whenever I remember!
 > I am constantly learning, lots of my University modules cover relating concepts
 >
-> This repo is a side project, therefore I update code whenever I remember - Exams hold more importance
 
 ### The repo:
 
