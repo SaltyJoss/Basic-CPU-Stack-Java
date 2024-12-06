@@ -75,7 +75,7 @@ REFERENCES:
 ------
 
 ### Initial Tutorial followed:
-[How to Build a Virtual Machine](https://www.youtube.com/watch?v=OjaAToVkoTw&pp=ygUZYmFzaWMgSlZNIHZpcnR1YWwgbWFjaGluZQ%3D%3D)
+[Youtube](https://www.youtube.com/watch?v=OjaAToVkoTw&pp=ygUZYmFzaWMgSlZNIHZpcnR1YWwgbWFjaGluZQ%3D%3D)
 ### Other:
 [GeeksforGeeks](https://www.geeksforgeeks.org/central-processing-unit-cpu/)
 
