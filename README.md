@@ -18,7 +18,7 @@
 
 #### example:
 
-'''Java
+'''
 case IADD:
 					b = stack[sp--];
 					a = stack[sp--];
@@ -32,26 +32,26 @@ case IADD:
 
 #### Example:
 
-'''Java
-import static vm.Bytecode.*;
-
-public class Main {
-	static int[] hello = {
-			ICONST, 99,
-			GSTORE, 0,
-			GLOAD, 0,
-			PRINT,
-			HALT
-	};
+'''
+	import static vm.Bytecode.*;
 	
-	public static void main(String[] args) {
-		int datasize = 1;
-		int mainip = 0;
-		VM vm = new VM(hello, mainip, datasize);
-		vm.trace = true;
-		vm.cpu();
+	public class Main {
+		static int[] hello = {
+				ICONST, 99,
+				GSTORE, 0,
+				GLOAD, 0,
+				PRINT,
+				HALT
+		};
 		
+		public static void main(String[] args) {
+			int datasize = 1;
+			int mainip = 0;
+			VM vm = new VM(hello, mainip, datasize);
+			vm.trace = true;
+			vm.cpu();
+			
+		}
 	}
-}
 '''
 
