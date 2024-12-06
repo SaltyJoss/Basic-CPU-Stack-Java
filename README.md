@@ -18,12 +18,12 @@
 
 #### example:
 
-```
-	case IADD:
-		b = stack[sp--];
-		a = stack[sp--];
-		stack[++sp] = a + b;
-		break;
+```Java
+case IADD:
+	b = stack[sp--];
+	a = stack[sp--];
+	stack[++sp] = a + b;
+	break;
 ```
 
 ### The code:
@@ -32,28 +32,26 @@
 
 #### Example:
 
-```
+```Java
+import static vm.Bytecode.*;
 
-	import static vm.Bytecode.*;
+public class Main {
+	static int[] hello = {
+			ICONST, 99,
+			GSTORE, 0,
+			GLOAD, 0,
+			PRINT,
+			HALT
+	};
 	
-	public class Main {
-		static int[] hello = {
-				ICONST, 99,
-				GSTORE, 0,
-				GLOAD, 0,
-				PRINT,
-				HALT
-		};
+	public static void main(String[] args) {
+		int datasize = 1;
+		int mainip = 0;
+		VM vm = new VM(hello, mainip, datasize);
+		vm.trace = true;
+		vm.cpu();
 		
-		public static void main(String[] args) {
-			int datasize = 1;
-			int mainip = 0;
-			VM vm = new VM(hello, mainip, datasize);
-			vm.trace = true;
-			vm.cpu();
-			
-		}
 	}
- 
+}
 ```
 
