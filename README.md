@@ -19,11 +19,11 @@
 #### example:
 
 '''
-case IADD:
-					b = stack[sp--];
-					a = stack[sp--];
-					stack[++sp] = a + b;
-					break;
+	case IADD:
+		b = stack[sp--];
+		a = stack[sp--];
+		stack[++sp] = a + b;
+		break;
 '''
 
 ### The code:
